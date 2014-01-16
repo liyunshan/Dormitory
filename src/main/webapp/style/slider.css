@@ -1,0 +1,53 @@
+#slider{}	
+#slider ul, #slider li, #slider2 ul, #slider2 li{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+#slider li, #slider2 li{ 
+    /* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+    width:720px;
+    height:160px;
+    overflow:hidden; 
+}	
+#prevBtn, #prevBtn2{ 
+    background: url("../images/box1_L.jpg") no-repeat scroll left top transparent;
+    display: block;
+    height: 168px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 20px;
+}	
+#nextBtn, #nextBtn2{ 
+    background: url("../images/box1_R.jpg") no-repeat scroll right top transparent;
+    display: block;
+    height: 168px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+}														
+#prevBtn a, #prevBtn2 a{  
+    background: url("../images/slide_L.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 16px;
+    margin: 80px 0 0 2px;
+    width: 13px;
+    color: #CECECE;
+    cursor: pointer;
+    text-decoration: none;
+}	
+#nextBtn a, #nextBtn2 a{ 
+    background: url("../images/slide_R.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 16px;
+    margin: 80px 4px 0 0;
+    width: 13px;
+    color: #CECECE;
+    cursor: pointer;
+    text-decoration: none;
+}
